@@ -8,6 +8,7 @@ import Studie from "./Studie";
 import Works from "./Works";
 import Contact from "./Contact";
 import CanvasLoader from "./Loader";
+import Footer from "./Footer";
 
 
 export {
@@ -19,6 +20,7 @@ export {
   Studie,
   Works,
   Contact,
+  Footer,
   CanvasLoader,
   EarthCanvas, 
   BallCanvas, 
