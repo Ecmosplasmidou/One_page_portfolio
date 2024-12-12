@@ -33,7 +33,7 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}>
             <img src={logo_1} alt="logo" className="w-28 h-28 object-contain" />
-          <div className="flex gap-4 ml-10 xs:flex xs:justify-center">
+            <div className="flex gap-4 ml-10 xs:flex xs:justify-center">
               <a href="https://github.com/Ecmosplasmidou" target="_blank" rel="noopener noreferrer">
                 <FaGithub className="text-white w-6 h-6" />
               </a>
