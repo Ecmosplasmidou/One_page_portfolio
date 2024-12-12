@@ -43,7 +43,7 @@ import {
     },
     {
       id: "tech",
-      title: "Tech",
+      title: "Techos",
     },
     {
       id: "works",
