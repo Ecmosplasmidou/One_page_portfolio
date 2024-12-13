@@ -37,7 +37,7 @@ const Navbar = () => {
               <a href="https://github.com/Ecmosplasmidou" target="_blank" rel="noopener noreferrer" onClick={(e) => {e.stopPropagation()}}>
                 <FaGithub className="text-white w-6 h-6" />
               </a>
-              <a href="https://www.linkedin.com/in/cassam-mahadawoo-b72612176/" target="_blank" rel="noopener noreferrer" onClick={(e) => {e.stopPropagation()}}>
+              <a href="https://www.linkedin.com/in/cassam-mahadawoo/" target="_blank" rel="noopener noreferrer" onClick={(e) => {e.stopPropagation()}}>
                 <FaLinkedin className="text-white w-6 h-6" />
               </a>
             </div>
