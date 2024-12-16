@@ -8,8 +8,6 @@ import { SectionWrapper } from "../hoc";
 import { useTranslation } from "react-i18next";
 
 
-const { t } = useTranslation();
-
 const ServiceCard = ({index, title, icon}) => {
   return(
     <Tilt className="w-full">
@@ -31,8 +29,8 @@ const ServiceCard = ({index, title, icon}) => {
 }
 
 const About = () => {
+  const { t } = useTranslation();
   const services = t('services', { returnObjects: true });
-  
   return (
     <>
       <motion.div variants={textVariant()} className="mt-[50px]">
