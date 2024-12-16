@@ -135,7 +135,7 @@ import {
   
   const experiences = [
     {
-      title: "Géstionnaire de flotte",
+      title: "Gestionnaire de flotte",
       company_name: "SNCF-réseau (NOISY-LE-SEC)",
       icon: sncf,
       iconBg: "#383E56",
@@ -148,7 +148,7 @@ import {
       ],
     },
     {
-      title: "Autoentrepreneur",
+      title: "Auto-entrepreneur",
       company_name: "Trendy-Paris (BONDY)",
       icon: shopify,
       iconBg: "#383E56",
