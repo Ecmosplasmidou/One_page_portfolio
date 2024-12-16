@@ -25,6 +25,24 @@
         "title": "Contact"
     }
 ],
+"services" : [
+    {
+      "title": "Web Developer",
+      "icon": "web"
+    },
+    {
+      "title": "React Native Developer (In training)",
+      "icon": "mobile"
+    },
+    {
+      "title": "Backend Developer",
+      "icon": "backend"
+    },
+    {
+      "title": "Content Creator",
+      "icon": "creator"
+    }
+  ],
 "technologies" : [
     {
       "name": "HTML 5",
@@ -268,6 +286,11 @@
     "greeting": "Hello, I'm",
     "description_one": "I'm a full-stack developer based in Toulouse, FR.",
     "description_two": "I have developed many types of full-stack from well known Works applications to Ecommerce shops.",
-    "description_three": "I'm passionate about IA, Web design and intuitively implemented UI and UX."
-}
+    "description_three": "I'm passionate about IA, Web design and intuitively implemented UI and UX." 
+  },
+  "aboutSection" : {
+    "subText": "Introduction",
+    "headText": "About Me",
+    "description": "After five years of working in a field that didn’t align with my true interests, I made the decision to follow my passion and pursue a career in full-stack development. The world of coding, problem-solving, and creating digital solutions has always fascinated me. This passion drove me to take the leap and invest in learning the skills necessary to build dynamic, user-friendly applications. Today, I’m proud to say that I’ve successfully transitioned into a field that not only excites me but also allows me to grow and thrive as a full-stack developer."
+  }
 }

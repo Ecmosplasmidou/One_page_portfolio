@@ -25,6 +25,24 @@
         "title": "Contact"
     }
 ],
+"services" : [
+    {
+      "title": "Développeur Web",
+      "icon": "web"
+    },
+    {
+      "title": "Développeur React Native (En cours de formation)",
+      "icon": "mobile"
+    },
+    {
+      "title": "Développeur Backend",
+      "icon": "backend"
+    },
+    {
+      "title": "Créateur de Contenu",
+      "icon": "creator"
+    }
+  ],
     "technologies" : [
         {
           "name": "HTML 5",
@@ -265,11 +283,14 @@
         "headText": "Mon Expérience Professionnelle"
       },
       "heroSection": {
-        "heroSection": {
           "greeting": "Bonjour, je suis",
           "description_one": "Je suis développeur full-stack basé à Toulouse, FR.",
           "description_two": "J'ai développé de nombreux types d'applications full-stack, des applications aux boutiques de e-commerce.",
           "description_three": "Je suis passionné par l'IA, le design web et l'implémentation de l'UI et de l'UX."
-      }
+      },
+      "aboutSection" : {
+        "subText": "Introduction",
+        "headText": "À propos de moi",
+        "description": "Après cinq ans de travail dans un domaine qui ne correspondait pas à mes véritables intérêts, j'ai pris la décision de suivre ma passion et de poursuivre une carrière dans le développement full-stack. Le monde du codage, de la résolution de problèmes et de la création de solutions numériques m'a toujours fasciné. Cette passion m'a poussé à franchir le pas et à investir dans l'apprentissage des compétences nécessaires pour créer des applications dynamiques et conviviales. Aujourd'hui, je suis fier de dire que j'ai réussi à me reconvertir dans un domaine qui non seulement m'enthousiasme, mais me permet également de grandir et de m'épanouir en tant que développeur full-stack."
       }
     }
