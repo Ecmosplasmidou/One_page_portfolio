@@ -1,12 +1,15 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import { useTranslation } from 'react-i18next';
+import LanguageSelector from 'LanguageSelector';
 
 import { styles } from "../styles";
 import { navLinks } from "../constants";
 import { logo_1, menu, close } from "../assets";
 
 const Navbar = () => {
+  const { t } = useTranslation();
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
   const [scrolled, setScrolled] = useState(false);
@@ -43,7 +46,7 @@ const Navbar = () => {
             </div>
         </Link>
         <ul className="list-none hidden xl:flex flex-row gap-10 ">
-          {navLinks.map((link)=>(
+          {t('navLinks', { returnObjects: true }).map((link)=>( 
             <li key={link.id} className={`${active==link.title ? 'text-white': 'text-secondary'}
                hover:text-white text-[18px] font-medium cursor-pointer`}
               onClick={() => setActive(link.title)}
@@ -57,9 +60,9 @@ const Navbar = () => {
             className="w-[28px] h-[28px] object-contain cursor-pointer"
             onClick={() => setToggle(!toggle)}
           />
-          <div className={`${!toggle ? 'hidden' : 'flex'} p-6 bg-gradient-to-r from-blue-500 via-gray-700 to-gray-900 absolute top-20 right-0 mx-4 my-2 min-w-[140px] md:min-w-[200px] rounded-xl`}>
+          <div className={`${!toggle ? 'hidden' : 'flex'} p-6 bg-gradient-to-r from-blue-500 via-gray-700 to-gray-900 absolute top-20 right-0 mx-4 my-2 min-w-[140px] md:min-w-[200px] z-10 rounded-xl`}>
             <ul className="list-none flex justify-end items-start flex-col gap-4">
-            {navLinks.map((link)=>(
+            {t('navLinks', { returnObjects: true }).map((link)=>( 
               <li key={link.id} className={`${active==link.title ? 'text-white': 'text-secondary'}
                 font-poppins font-medium cursor-pointer text-[16px]`}
                 onClick={() => {
@@ -73,6 +76,7 @@ const Navbar = () => {
             </ul>
           </div>
         </div>
+        <LanguageSelector />
       </div>
     </nav>
   )

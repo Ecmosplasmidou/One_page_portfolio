@@ -1,5 +1,7 @@
 import { BrowserRouter } from 'react-router-dom';
 import { About, Contact, Experience, Studie, Tech, Works, Hero, Navbar, StarsCanvas, Footer} from './components';
+import './i18n';
+
 
 const App = () => {
   return (

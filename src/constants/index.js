@@ -184,11 +184,11 @@ import {
       iconBg: "#383E56",
       date: "DEC 2023 - OCT 2024",
       points: [
-        "Design an e-commerce website with Shopify.",
-        "Improve the website's web content.",
-        "Responsible for advertising content.",
-        "Manage social media platforms.",
-        "Define a specifications document and lead the marketing campaign.",
+        "Manage and oversee project team tasks using TRELLO.",
+        "Manage and oversee project team tasks using JIRA.",
+        "Develop a digital solution with Python.",
+        "Build dynamic websites using PHP.",
+        "Create and manage relational and non-relational databases.",
       ],
     },
     {
@@ -198,11 +198,10 @@ import {
       iconBg: "#383E56",
       date: "Sep 2016 - Aug 2018",
       points: [
-        "Design an e-commerce website with Shopify.",
-        "Improve the website's web content.",
-        "Responsible for advertising content.",
-        "Manage social media platforms.",
-        "Define a specifications document and lead the marketing campaign.",
+        "Communicate: research and structure technical information.",
+        "Organize: maintain information and formalize the expression of a need.",
+        "Design: analyze a specification document and define the global architecture of a prototype or system.",
+        "Maintain: diagnose the causes of hardware/software malfunctions and propose corrections or improvements.",
       ],
     },
   ];

@@ -1,0 +1,259 @@
+{
+    "navLinks":  [
+        {
+        "id": "about",
+        "title": "A propos"
+    },
+    {
+        "id": "work",
+        "title": "Travail"
+    },
+    {
+        "id": "studies",
+        "title": "Etudes"
+    },
+    {
+        "id": "tech",
+        "title": "Techos"
+    },
+    {
+        "id": "works",
+        "title": "Projets"
+    },
+    {
+        "id": "contact",
+        "title": "Contact"
+    }
+],
+    "technologies" : [
+        {
+          "name": "HTML 5",
+          "icon": "html"
+        },
+        {
+          "name": "CSS 3",
+          "icon": "css"
+        },
+        {
+          "name": "JavaScript",
+          "icon": "javascript"
+        },
+        {
+          "name": "TypeScript",
+          "icon": "typescript"
+        },
+        {
+          "name": "React JS",
+          "icon": "reactjs"
+        },
+        {
+          "name": "Tailwind CSS",
+          "icon": "tailwind"
+        },
+        {
+          "name": "MongoDB",
+          "icon": "mongodb"
+        },
+        {
+          "name": "Three JS",
+          "icon": "threejs"
+        },
+        {
+          "name": "Python",
+          "icon": "python"
+        },
+        {
+          "name": "Django",
+          "icon": "django"
+        },
+        {
+          "name": "Php",
+          "icon": "php"
+        },
+        {
+          "name": "Symfony",
+          "icon": "symfony"
+        },
+        {
+          "name": "git",
+          "icon": "git"
+        },
+        {
+          "name": "figma",
+          "icon": "figma"
+        }
+      ],
+    
+      "experiences": [
+        {
+          "title": "Gestionnaire de flotte",
+          "company_name": "SNCF-réseau (NOISY-LE-SEC)",
+          "icon": "sncf",
+          "iconBg": "#383E56",
+          "date": "Dec 2018 - Nov 2024",
+          "points": [
+            "Coordonner et diriger toutes les opérations de maintenance du site.",
+            "Réorganiser rapidement et rediriger la production en fonction des circonstances imprévues.",
+            "Fournir une visibilité en temps réel sur l'avancement des travaux.",
+            "Recevoir et retourner les trains à l'heure pour garantir le respect du plan de transport."
+          ]
+        },
+        {
+          "title": "Auto-entrepreneur",
+          "company_name": "Trendy-Paris (BONDY)",
+          "icon": "shopify",
+          "iconBg": "#383E56",
+          "date": "Mai 2021 - Dec 2023",
+          "points": [
+            "Concevoir un site e-commerce avec Shopify.",
+            "Améliorer le contenu web du site.",
+            "Responsable du contenu publicitaire.",
+            "Gérer les plateformes de médias sociaux.",
+            "Définir un cahier des charges et diriger la campagne marketing."
+          ]
+        }
+      ],
+    
+      "studies": [
+        {
+          "title": "Master en Expertise des Systèmes d'Information",
+          "company_name": "3W Academy (TOULOUSE)",
+          "icon": "three_wa",
+          "iconBg": "#383E56",
+          "date": "Jan 2025 - Jui 2026",
+          "points": [
+            "Analyser et définir une stratégie des systèmes d'information.",
+            "Diriger et gérer des projets informatiques.",
+            "Concevoir et développer une application logicielle.",
+            "Construire et développer des modèles de big data."
+          ]
+        },
+        {
+          "title": "Bachelor Concepteur Développeur De Solutions Digitales",
+          "company_name": "HETIC by STUDI (TOULOUSE)",
+          "icon": "hetic",
+          "iconBg": "#383E56",
+          "date": "DEC 2023 - OCT 2024",
+          "points": [
+            "Manager et piloter les tâches avec ses équipes projet grâce à TRELLO.",
+            "Manager et piloter les tâches avec ses équipes projet grâce à JIRA.",
+            "Développement d’une solution digitale avec Python.",
+            "Développer des sites web dynamiques avec PHP.",
+            "Créer et administrer une base de données relationnelle et non relationnelle."
+          ]
+        },
+        {
+          "title": "Brevet de Technicien supérieur (BTS) Système numérique (SN)",
+          "company_name": "Lycée Marce Sembat (ROUEN)",
+          "icon": "lms",
+          "iconBg": "#383E56",
+          "date": "Sep 2016 - Aug 2018",
+          "points": [
+            "Communiquer : rechercher et structurer des informations techniques.",
+            "Organiser : maintenir les informations et formaliser l’expression d’un besoin.",
+            "Concevoir : analyser un cahier des charges et définir l’architecture globale d’un prototype ou d’un système.",
+            "Maintenir : diagnostiquer les causes d’un dysfonctionnement matérielle/logicielle et proposer des corrections ou des améliorations."
+          ]
+        }
+      ],
+      
+      "projects": [
+        {
+          "name": "Olympic Ticket Hub",
+          "description":
+            "Olympic Ticket Hub est un site basé sur Django pour acheter des billets pour les Jeux Olympiques de 2024. Les utilisateurs peuvent consulter les événements, sélectionner des billets et payer en ligne en toute sécurité. Les fonctionnalités d'administration incluent le suivi des ventes et la gestion des billets, mettant en valeur les compétences en développement web.",
+          "tags": [
+            {
+              "name": "Python-Django",
+              "color": "blue-text-gradient"
+            },
+            {
+              "name": "JavaScript",
+              "color": "pink-text-gradient"
+            },
+            {
+              "name": "mongodb",
+              "color": "green-text-gradient"
+            },
+            {
+              "name": "Bootstrap",
+              "color": "yellow-text-gradient"
+            }
+          ],
+          "image": "carrent",
+          "source_code_link": "https://github.com/Ecmosplasmidou/site_jo_finale"
+        },
+        {
+          "name": "Ecmosgotchi",
+          "description":
+            "Ecmosgotchi était mon tout premier projet, créé en utilisant HTML, CSS et JavaScript. C'est un jeu de mascotte virtuelle où vous prenez soin de votre animal en le nourrissant, en jouant à des jeux et en le gardant heureux. Ce projet m'a aidé à apprendre les bases du développement web et a suscité ma passion pour le codage.",
+          "tags": [
+            {
+              "name": "Html",
+              "color": "blue-text-gradient"
+            },
+            {
+              "name": "Css",
+              "color": "yellow-text-gradient"
+            },
+            {
+              "name": "JavaScript",
+              "color": "pink-text-gradient"
+            }
+          ],
+          "image": "jobit",
+          "source_code_link": "https://github.com/Ecmosplasmidou/Tamagochi",
+          "website": "https://ecmosgotchi-tamagotchi-by-ecmosdev.netlify.app/"
+        },
+        {
+          "name": "Hafeze Cuisine",
+          "description":
+            "Hafeze Cuisine est un restaurant à emporter servant des plats italiens, mauriciens et indiens. Profitez de saveurs authentiques comme les pâtes, les pizzas, les fruits de mer, les currys et les pains. Commandez en ligne pour une expérience culinaire pratique et de haute qualité à la maison.",
+          "tags": [
+            {
+              "name": "Python-Flask",
+              "color": "blue-text-gradient"
+            },
+            {
+              "name": "Bootstrap",
+              "color": "yellow-text-gradient"
+            },
+            {
+              "name": "JavaScript",
+              "color": "pink-text-gradient"
+            },
+            {
+              "name": "mysql",
+              "color": "green-text-gradient"
+            }
+          ],
+          "image": "tripguide",
+          "source_code_link": "https://github.com/Ecmosplasmidou/hafeze_cuisine"
+        },
+        {
+          "name": "Tendy-Paris",
+          "description":
+            "Trendy Paris était un projet de commerce électronique basé sur Shopify axé sur la mode prêt-à-porter. La boutique présentait une sélection soignée de vêtements tendance et chic, incarnant l'essence du style. Lancée pour offrir une mode de qualité et accessible, elle a fonctionné avec succès jusqu'en décembre 2023.",
+          "tags": [
+            {
+              "name": "Html",
+              "color": "blue-text-gradient"
+            },
+            {
+              "name": "Css",
+              "color": "yellow-text-gradient"
+            },
+            {
+              "name": "JavaScript",
+              "color": "pink-text-gradient"
+            },
+            {
+              "name": "Shopify",
+              "color": "green-text-gradient"
+            }
+          ],
+          "image": "trendyparis",
+          "instagram": "https://instagram.com/trendy_paris"
+        }
+      ]
+    }
