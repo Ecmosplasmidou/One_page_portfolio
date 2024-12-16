@@ -5,8 +5,14 @@ import { github, websiteIcon, insta  } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
+import { useTranslation } from "react-i18next";
+import carrent from '../assets/carrent.png';
+import jobit from '../assets/jobit.png';
+import tripguide from '../assets/tripguide.png';
+import trendyparis from '../assets/trendyparis.png';
 
 
+const projectsPics = { carrent, jobit, tripguide, trendyparis };
 
 const ProjectCard = ( {index, name, description, tags, image, source_code_link, website, instagram }) => {
   return (
@@ -19,7 +25,7 @@ const ProjectCard = ( {index, name, description, tags, image, source_code_link, 
         }}
         className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full">
           <div className="relative w-full h-[230px]">
-            <img src={image}
+            <img src={projectsPics[image]}
                 alt={name}
                 className="w-full h-full object-cover rounded-2xl"/>
             <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
@@ -65,20 +71,24 @@ const ProjectCard = ( {index, name, description, tags, image, source_code_link, 
 
 
 const Works = () => {
+
+  const { t } = useTranslation();
+  const projects = t('projects', { returnObjects: true });
+
   return (
     <>
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText}`}>
-        My Works
+        {(t('worksSection.subText'))}
         </p>
         <h2 className={`${styles.sectionHeadText}`}>
-          Projects
+        {(t('worksSection.headText'))}
         </h2>
       </motion.div>
       <div className="w-full flex">
         <motion.p
           variants={fadeIn("", "", 0.1, 1)} className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]">
-          Explore a selection of my projects showcasing my skills in web development and design. Each project highlights my ability to create functional, user-friendly, and visually appealing solutions.<strong> Click on the icons to view the github, website, or Instagram page.</strong>
+          {t('worksSection.description')}<strong> {t('worksSection.description_two')}</strong>
         </motion.p>
       </div>
       <div className="mt-20 flex flex-wrap gap-7 justify-center me-2 sml:grid sml:grid-cols-2">

@@ -12,6 +12,9 @@ i18n
     },
     lng: 'en',
     fallbackLng: 'en',
+    react: {
+      useSuspense: false,
+    },
     interpolation: {
       escapeValue: false
     }

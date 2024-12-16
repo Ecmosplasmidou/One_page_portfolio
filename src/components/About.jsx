@@ -6,6 +6,13 @@ import { services } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 import { SectionWrapper } from "../hoc";
 import { useTranslation } from "react-i18next";
+import web from '../assets/web.png';
+import mobile from '../assets/mobile.png';
+import backend from '../assets/backend.png';
+import creator from '../assets/creator.png';
+
+
+const iconMap = { web, mobile, backend, creator };
 
 
 const ServiceCard = ({index, title, icon}) => {
@@ -20,7 +27,7 @@ const ServiceCard = ({index, title, icon}) => {
               speed: 450,
           }}
           className="bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-center items-center flex-col">
-          <img src={icon} alt={title} className="w-16 h-16 object-contain mb-4"/>
+          <img src={iconMap[icon]} alt={title} className="w-16 h-16 object-contain mb-4"/>
           <h3 className="text-white text-[20px] font-bold text-center">{title}</h3>
         </div>
       </motion.div>
