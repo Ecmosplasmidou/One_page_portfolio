@@ -298,5 +298,9 @@
     "headText": "Projects",
     "description": "Explore a selection of my projects showcasing my skills in web development and design. Each project highlights my ability to create functional, user-friendly, and visually appealing solutions.",
     "description_two": "Click on the project cards to view more details and access the source code."
+  },
+  "techSection": {
+    "subText": "The technologies I have learned so far",
+    "headText": "My Technologies"
   }
 }

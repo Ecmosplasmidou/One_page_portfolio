@@ -298,5 +298,9 @@
         "headText": "Projets",
         "description": "Explorez une sélection de mes projets mettant en valeur mes compétences en développement web et en design. Chaque projet met en avant ma capacité à créer des solutions fonctionnelles et visuellement attrayantes.",
         "description_two": "Cliquez sur les icones en haut de cardes pour avoir accés au github ou au site-internet."
+      },
+      "techSection": {
+        "subText": "Le stechnologies que j'ai apprises jusqu'à présent",
+        "headText": "Mes Technologies"
       }
     }
