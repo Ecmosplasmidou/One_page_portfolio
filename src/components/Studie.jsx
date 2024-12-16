@@ -1,6 +1,7 @@
 import React from "react";
 import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component";
 import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
 
 import "react-vertical-timeline-component/style.min.css";
 
@@ -8,6 +9,11 @@ import { styles } from "../styles";
 import { studies } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
+import three_wa from '../assets/company/3WA.png';
+import hetic from '../assets/company/hetic.png';
+import lms from '../assets/company/lms.png';
+
+const iconMap = { three_wa, hetic, lms };
 
 const StudieCard = ({ studie }) => {
   return (
@@ -22,7 +28,7 @@ const StudieCard = ({ studie }) => {
       icon={
         <div className='flex justify-center items-center w-full h-full'>
           <img
-            src={studie.icon}
+            src={iconMap[studie.icon]}
             alt={studie.company_name}
             className='w-[60%] h-[60%] object-contain'
           />
@@ -54,6 +60,8 @@ const StudieCard = ({ studie }) => {
 };
 
 const Studies = () => {
+  const { t } = useTranslation();
+  const studies = t("studies", { returnObjects: true });
   return (
     <>
       <motion.div variants={textVariant()}>
