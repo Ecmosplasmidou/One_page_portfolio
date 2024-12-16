@@ -313,6 +313,8 @@
     "message": "Your Message",
     "placeholderMessage": "What do you want to say?",
     "alert200" : "Message sent successfully! I will get back to you soon.",
-    "alert400" : "Something went wrong. Please try again."
+    "alert400" : "Something went wrong. Please try again.",
+    "send" : "Send Message",
+    "sending..." : "Sending..."
   }
 }

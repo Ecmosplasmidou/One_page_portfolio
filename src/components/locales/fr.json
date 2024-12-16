@@ -2,7 +2,7 @@
     "navLinks":  [
         {
         "id": "about",
-        "title": "A propos"
+        "title": "À propos"
     },
     {
         "id": "work",
@@ -10,7 +10,7 @@
     },
     {
         "id": "studies",
-        "title": "Etudes"
+        "title": "Études"
     },
     {
         "id": "tech",
@@ -313,6 +313,8 @@
         "message": "Ton Message",
         "placeholderMessage": "Que veux-tu savoir?",
         "alert200" : "Message envoyé avec succès ! Je vous répondrai bientôt.",
-        "alert400" : "Une erreur est survenue. Veuillez réessayer."
+        "alert400" : "Une erreur est survenue. Veuillez réessayer.",
+        "send" : "Envoyer le Message",
+        "sending..." : "Envoye..."
       }
     }
