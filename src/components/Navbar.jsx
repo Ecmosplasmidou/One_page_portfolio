@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { useTranslation } from 'react-i18next';
-import LanguageSelector from 'LanguageSelector';
+import LanguageSelector from './LanguageSelector';
 
 import { styles } from "../styles";
 import { navLinks } from "../constants";
