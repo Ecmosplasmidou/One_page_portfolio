@@ -259,5 +259,17 @@
       "studiesSection": {
         "subText": "Ce que j'ai étudié jusqu'à présent",
         "headText": "Mes Études"
+      },
+      "experienceSection": {
+        "subText": "Ce que j'ai fait jusqu'à présent",
+        "headText": "Mon Expérience Professionnelle"
+      },
+      "heroSection": {
+        "heroSection": {
+          "greeting": "Bonjour, je suis",
+          "description_one": "Je suis développeur full-stack basé à Toulouse, FR.",
+          "description_two": "J'ai développé de nombreux types d'applications full-stack, des applications aux boutiques de e-commerce.",
+          "description_three": "Je suis passionné par l'IA, le design web et l'implémentation de l'UI et de l'UX."
+      }
       }
     }

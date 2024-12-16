@@ -263,5 +263,11 @@
   "experienceSection": {
     "subText": "What I have done so far",
     "headText": "My Work Experience"
-  }
+  },
+  "heroSection": {
+    "greeting": "Hello, I'm",
+    "description_one": "I'm a full-stack developer based in Toulouse, FR.",
+    "description_two": "I have developed many types of full-stack from well known Works applications to Ecommerce shops.",
+    "description_three": "I'm passionate about IA, Web design and intuitively implemented UI and UX."
+}
 }
