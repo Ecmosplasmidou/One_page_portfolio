@@ -25,7 +25,7 @@ const Contact = () => {
     setLoading(true);
 
     emailjs.send('service_0y1w367', 
-      'template_te1126m', 
+      'template_kdod19v', 
       {
         from_name: form.name,
         to_name: 'Cassam',
