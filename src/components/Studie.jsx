@@ -66,10 +66,10 @@ const Studies = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} text-center`}>
-        What I have studied so far
+          {t('studiesSection.headText')}
         </p>
         <h2 className={`${styles.sectionHeadText} text-center`}>
-          My Studies
+        {t('studiesSection.headText')}
         </h2>
       </motion.div>
 

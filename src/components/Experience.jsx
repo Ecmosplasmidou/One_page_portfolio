@@ -1,6 +1,7 @@
 import React from "react";
 import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component";
 import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
 
 import "react-vertical-timeline-component/style.min.css";
 
@@ -8,6 +9,11 @@ import { styles } from "../styles";
 import { experiences } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
+import sncf from '../assets/company/SNCF.png';
+import shopify from '../assets/company/shopify.png';
+
+
+const iconMap = { sncf, shopify };
 
 const ExperienceCard = ({ experience }) => {
   return (
@@ -22,7 +28,7 @@ const ExperienceCard = ({ experience }) => {
       icon={
         <div className='flex justify-center items-center w-full h-full'>
           <img
-            src={experience.icon}
+            src={iconMap[experience.icon]}
             alt={experience.company_name}
             className='w-[60%] h-[60%] object-contain'
           />
@@ -54,14 +60,18 @@ const ExperienceCard = ({ experience }) => {
 };
 
 const Experience = () => {
+
+  const { t } = useTranslation();
+  const experiences = t('experiences', { returnObjects: true });
+
   return (
     <>
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} text-center`}>
-          What I have done so far
+          {t('experienceSection.headText')}
         </p>
         <h2 className={`${styles.sectionHeadText} text-center`}>
-          Work Experience
+          {t('experienceSection.headText')}
         </h2>
       </motion.div>
 

@@ -43,6 +43,7 @@ const Navbar = () => {
               <a href="https://www.linkedin.com/in/cassam-mahadawoo/" target="_blank" rel="noopener noreferrer" onClick={(e) => {e.stopPropagation()}}>
                 <FaLinkedin className="text-white w-6 h-6" />
               </a>
+              <LanguageSelector />
             </div>
         </Link>
         <ul className="list-none hidden xl:flex flex-row gap-10 ">
@@ -76,7 +77,6 @@ const Navbar = () => {
             </ul>
           </div>
         </div>
-        <LanguageSelector />
       </div>
     </nav>
   )
