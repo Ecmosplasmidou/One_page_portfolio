@@ -5,7 +5,10 @@ import { styles } from "../styles";
 import { services } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 import { SectionWrapper } from "../hoc";
+import { useTranslation } from "react-i18next";
 
+
+const { t } = useTranslation();
 
 const ServiceCard = ({index, title, icon}) => {
   return(
@@ -28,17 +31,16 @@ const ServiceCard = ({index, title, icon}) => {
 }
 
 const About = () => {
+  const services = t('services', { returnObjects: true });
+  
   return (
     <>
       <motion.div variants={textVariant()} className="mt-[50px]">
-      <p className={`${styles.sectionSubText}`}>Introduction</p>
-        <h2 className={`${styles.sectionHeadText}`}>Overview</h2>
+      <p className={`${styles.sectionSubText}`}>{t('aboutSection.subText')}</p>
+        <h2 className={`${styles.sectionHeadText}`}>{t('aboutSection.headText')}</h2>
       </motion.div>
       <motion.p variants={fadeIn("","",0.1,1)} className="mt-4 text-secondary text-[-17px] max-w-3xl leading-[-30px]">
-      After five years of working in a field that didn’t align with my true interests, I made the decision to follow my passion and pursue a career in full-stack development. 
-      The world of coding, problem-solving, and creating digital solutions has always fascinated me. 
-      This passion drove me to take the leap and invest in learning the skills necessary to build dynamic, user-friendly applications. 
-      Today, I’m proud to say that I’ve successfully transitioned into a field that not only excites me but also allows me to grow and thrive as a full-stack developer.
+        {t('aboutSection.description')}
       </motion.p>
       <div className="mt-20 grid sm:grid-cols-2 gap-10">
         {services.map((service, index)=>

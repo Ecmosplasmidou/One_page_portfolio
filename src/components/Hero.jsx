@@ -1,10 +1,13 @@
-import React from "react";
 import { motion } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
 
 import { styles } from '../styles';
 // import { ComputersCanvas } from "./canvas";
 
 const Hero = () => {
+
+  const { t } = useTranslation();
+
   return (
     <section className="relative w-full h-screen mx-auto">
       <div className={`${styles.paddingX} absolute inset-0 top-[80px] max-w-7x1 mx-auto flex flex-row items-start gap-5`}>
@@ -13,10 +16,10 @@ const Hero = () => {
           <div className="w-1 h-80 xs:h-100 sml:h-100 violet-gradient"></div>
         </div>
         <div className="sml:mt-[180px] mt-[150px] xs:mt-[80px] relative z-10">
-          <h1 className={`${styles.heroHeadText} text-white`}>Hi, I'm <span className="text-[#915eff]">Cassam</span></h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>I'm a full-stack developer based in Toulouse, FR. <br className="sm:block hidden"/>
-            I have developed many types of front-ends from well known Works applications to Ecommerce shops. <br className="sm:block hidden"/>
-            I'm passionate about IA, Web design and intuitively implemented UI and UX. 
+          <h1 className={`${styles.heroHeadText} text-white`}>{t('heroSection.greeting')} <span className="text-[#915eff]">Cassam</span></h1>
+          <p className={`${styles.heroSubText} mt-2 text-white-100`}>{t('heroSection.description_one')}<br className="sm:block hidden"/>
+          {t('heroSection.description_two')}<br className="sm:block hidden"/>
+          {t('heroSection.description_three')}
           </p>
         </div>
       </div>   

@@ -1,4 +1,3 @@
-import React from "react";
 import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component";
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
@@ -6,7 +5,6 @@ import { useTranslation } from "react-i18next";
 import "react-vertical-timeline-component/style.min.css";
 
 import { styles } from "../styles";
-import { studies } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
 import three_wa from '../assets/company/3WA.png';
@@ -66,7 +64,7 @@ const Studies = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} text-center`}>
-          {t('studiesSection.headText')}
+          {t('studiesSection.subText')}
         </p>
         <h2 className={`${styles.sectionHeadText} text-center`}>
         {t('studiesSection.headText')}
