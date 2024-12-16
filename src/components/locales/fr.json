@@ -24,66 +24,7 @@
         "id": "contact",
         "title": "Contact"
     }
-],
-    "technologies" : [
-        {
-          "name": "HTML 5",
-          "icon": "html"
-        },
-        {
-          "name": "CSS 3",
-          "icon": "css"
-        },
-        {
-          "name": "JavaScript",
-          "icon": "javascript"
-        },
-        {
-          "name": "TypeScript",
-          "icon": "typescript"
-        },
-        {
-          "name": "React JS",
-          "icon": "reactjs"
-        },
-        {
-          "name": "Tailwind CSS",
-          "icon": "tailwind"
-        },
-        {
-          "name": "MongoDB",
-          "icon": "mongodb"
-        },
-        {
-          "name": "Three JS",
-          "icon": "threejs"
-        },
-        {
-          "name": "Python",
-          "icon": "python"
-        },
-        {
-          "name": "Django",
-          "icon": "django"
-        },
-        {
-          "name": "Php",
-          "icon": "php"
-        },
-        {
-          "name": "Symfony",
-          "icon": "symfony"
-        },
-        {
-          "name": "git",
-          "icon": "git"
-        },
-        {
-          "name": "figma",
-          "icon": "figma"
-        }
-      ],
-    
+],  
       "experiences": [
         {
           "title": "Gestionnaire de flotte",
