@@ -255,5 +255,13 @@
       "image": "trendyparis",
       "instagram": "https://instagram.com/trendy_paris"
     }
-  ]
+  ],
+  "studiesSection": {
+    "subText": "What I have studied so far",
+    "headText": "My Studies"
+  },
+  "experienceSection": {
+    "subText": "What I have done so far",
+    "headText": "My Work Experience"
+  }
 }

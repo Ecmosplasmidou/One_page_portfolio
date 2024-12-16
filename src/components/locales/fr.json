@@ -255,5 +255,9 @@
           "image": "trendyparis",
           "instagram": "https://instagram.com/trendy_paris"
         }
-      ]
+      ],
+      "studiesSection": {
+        "subText": "Ce que j'ai étudié jusqu'à présent",
+        "headText": "Mes Études"
+      }
     }
