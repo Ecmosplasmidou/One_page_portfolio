@@ -302,5 +302,17 @@
   "techSection": {
     "subText": "The technologies I have learned so far",
     "headText": "My Technologies"
+  },
+  "contactSection": {
+    "subText": "Get in touch",
+    "headText": "Contact Me",
+    "name": "Your Name",
+    "placeholderName": "What's your name?",
+    "email": "Your Email",
+    "placeholderEmail": "Insert your email?",
+    "message": "Your Message",
+    "placeholderMessage": "What do you want to say?",
+    "alert200" : "Message sent successfully! I will get back to you soon.",
+    "alert400" : "Something went wrong. Please try again."
   }
 }

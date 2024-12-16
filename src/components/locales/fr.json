@@ -302,5 +302,17 @@
       "techSection": {
         "subText": "Le stechnologies que j'ai apprises jusqu'à présent",
         "headText": "Mes Technologies"
+      },
+      "contactSection": {
+        "subText": "Entrer en contact",
+        "headText": "Contacte moi",
+        "name": "Ton Nom",
+        "placeholderName": "Comment tu t'appelles?",
+        "email": "Ton Email",
+        "placeholderEmail": "Entre ton email?",
+        "message": "Ton Message",
+        "placeholderMessage": "Que veux-tu savoir?",
+        "alert200" : "Message envoyé avec succès ! Je vous répondrai bientôt.",
+        "alert400" : "Une erreur est survenue. Veuillez réessayer."
       }
     }
