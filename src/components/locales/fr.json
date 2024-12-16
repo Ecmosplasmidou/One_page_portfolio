@@ -292,5 +292,11 @@
         "subText": "Introduction",
         "headText": "À propos de moi",
         "description": "Après cinq ans de travail dans un domaine qui ne correspondait pas à mes véritables intérêts, j'ai pris la décision de suivre ma passion et de poursuivre une carrière dans le développement full-stack. Le monde du codage, de la résolution de problèmes et de la création de solutions numériques m'a toujours fasciné. Cette passion m'a poussé à franchir le pas et à investir dans l'apprentissage des compétences nécessaires pour créer des applications dynamiques et conviviales. Aujourd'hui, je suis fier de dire que j'ai réussi à me reconvertir dans un domaine qui non seulement m'enthousiasme, mais me permet également de grandir et de m'épanouir en tant que développeur full-stack."
+      },
+      "worksSection": {
+        "subText": "Mes travaux",
+        "headText": "Projets",
+        "description": "Explorez une sélection de mes projets mettant en valeur mes compétences en développement web et en design. Chaque projet met en avant ma capacité à créer des solutions fonctionnelles et visuellement attrayantes.",
+        "description_two": "Cliquez sur les icones en haut de cardes pour avoir accés au github ou au site-internet."
       }
     }

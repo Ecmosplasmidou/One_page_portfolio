@@ -292,5 +292,11 @@
     "subText": "Introduction",
     "headText": "About Me",
     "description": "After five years of working in a field that didn’t align with my true interests, I made the decision to follow my passion and pursue a career in full-stack development. The world of coding, problem-solving, and creating digital solutions has always fascinated me. This passion drove me to take the leap and invest in learning the skills necessary to build dynamic, user-friendly applications. Today, I’m proud to say that I’ve successfully transitioned into a field that not only excites me but also allows me to grow and thrive as a full-stack developer."
+  },
+  "worksSection": {
+    "subText": "My Works",
+    "headText": "Projects",
+    "description": "Explore a selection of my projects showcasing my skills in web development and design. Each project highlights my ability to create functional, user-friendly, and visually appealing solutions.",
+    "description_two": "Click on the project cards to view more details and access the source code."
   }
 }
