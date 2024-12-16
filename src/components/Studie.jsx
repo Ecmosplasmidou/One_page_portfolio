@@ -10,7 +10,7 @@ import { studies } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
 import three_wa from '../assets/company/3WA.png';
-import hetic from '../assets/company/HETIC.png';
+import hetic from '../assets/company/HETIC.jpg';
 import lms from '../assets/company/lycee_ms.png';
 
 const iconMap = { three_wa, hetic, lms };
