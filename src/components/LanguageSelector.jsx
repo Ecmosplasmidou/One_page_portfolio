@@ -5,7 +5,6 @@ const LanguageSelector = () => {
 
 const changeLanguage = (lng) => {
   i18n.changeLanguage(lng).then(() => {
-    window.location.href='/One_page_portfolio/';
   });
 }
 
