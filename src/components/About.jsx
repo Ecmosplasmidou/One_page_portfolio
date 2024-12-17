@@ -38,6 +38,14 @@ const ServiceCard = ({index, title, icon}) => {
 const About = () => {
   const { t } = useTranslation();
   const services = t('services', { returnObjects: true });
+
+  console.log('Services:', services)
+
+  if (!Array.isArray(services)){
+    console.error("La clés services n'est pas un tableau")
+    return null
+  }
+
   return (
     <>
       <motion.div variants={textVariant()} className="mt-[50px]">

@@ -5,7 +5,7 @@ const LanguageSelector = () => {
 
 const changeLanguage = (lng) => {
   i18n.changeLanguage(lng).then(() => {
-    window.history.replaceState(null, null, `/One_page_portfolio/${lng}`);
+    window.location.reload();;
   });
 }
 

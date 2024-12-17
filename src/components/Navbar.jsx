@@ -35,7 +35,7 @@ const Navbar = () => {
           onClick={() =>{ setActive("");
             window.scrollTo(0, 0);
           }}>
-            <img src={logo_1} alt="logo" className="w-32 h-32 object-contain" />
+            <img src={logo_1} alt="logo" className="w-32 h-22 object-contain" />
             <div className="flex gap-4 ml-10 xs:flex xs:justify-center">
               <a href="https://github.com/Ecmosplasmidou" target="_blank" rel="noopener noreferrer" onClick={(e) => {e.stopPropagation()}}>
                 <FaGithub className="text-white w-6 h-6" />
